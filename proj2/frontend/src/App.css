@@ -1,0 +1,219 @@
+/* App.css */
+
+.mainContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  
+}
+
+.childContainer {
+  width: 80%;
+  margin: 0 auto;
+  
+}
+
+.addButton {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.table {
+  width: 500px;
+  border-collapse: collapse;
+  margin-top: 20px;
+  border: 2px solid red;
+}
+
+.tableHead {
+  background-color: #f2f2f2;
+}
+
+.tableHeadRow th {
+  padding: 8px;
+  text-align: left;
+  border: 2px solid palegreen;
+}
+
+.tableBodyRow td {
+  padding: 8px;
+  border: 2px solid palegreen;
+}
+
+Link {
+  margin-right: 10px;
+  color: #303438;
+  transition: color 0.3s ease;
+  
+  margin-right: 10px;
+  /* margin-left: 10px; */
+  /* color: #1462b1; */
+  text-decoration: none;
+  border-bottom: none; /* Remove underline */
+}
+
+Link:hover {
+  color: #ffffff;
+}
+
+Button {
+  padding: 5px 10px;
+  background-color: #dc3545;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin: 5px;
+  transition: background-color 0.3s ease;
+}
+
+/* Button:hover {
+  background-color: #c82333;
+} */
+
+.form {
+  margin-top: 20px;
+  
+}
+
+.name,
+.email {
+  margin-bottom: 10px;
+  
+}
+
+/* .button {
+  display: block;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+} */
+
+button:hover {
+  background-color: #0ddb17;
+}
+
+/* Styles for Create Component */
+.mainCreate {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  height: 100vh;
+  
+}
+
+.error{
+  color: #c82333;
+}
+
+.childCreate {
+  width: 50%;
+  margin-left: 455px;
+  /* display: flex; */
+  /* justify-content: last baseline; */
+  /* border: 2px solid palegreen; */
+}
+
+.childCreate h2 {
+  color: #007bff;
+}
+
+.childCreate .form {
+  margin-top: 20px;
+  
+}
+
+.childCreate .name,
+.childCreate .email {
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+
+.childCreate .button {
+  display: block;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.childCreate .button:hover {
+  background-color: #0056b3;
+}
+
+/* Styles for Update Component */
+.mainUpdate {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.childUpdate {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.childUpdate h2 {
+  color: #007bff;
+}
+
+.childUpdate .form {
+  margin-top: 20px;
+}
+
+.childUpdate .name,
+.childUpdate .email {
+  margin-bottom: 10px;
+}
+
+.childUpdate .button {
+  display: block;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.childUpdate .button:hover {
+  background-color: #0056b3;
+}
+/* App.css */
+
+/* ... Previous CSS Rules ... */
+
+/* Remove underline from link tags */
+.actionLink:hover {
+  color: #0044cc;
+}
+
+/* Add box shadow to table */
+.mainContainer .childContainer .table {
+  width: 100%;
+  border: 2px solid black;
+  border-collapse: collapse;
+  margin-top: 20px;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.1); /* Add box shadow */
+}
+
+/* ... Rest of the CSS Rules ... */
